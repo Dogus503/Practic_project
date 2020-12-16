@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Liner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="411dp"
+        android:layout_height="92dp"
+        android:text="Вопрос 1. Создайте класс Cat наследуемый от класса Animal"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/textViewColorLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class cat extend Animal{}"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewColorSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="2dp">
+
+            <CheckBox
+                android:id="@+id/checkBoxColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/textViewBoldLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class cat implements Animal{}"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewBoldSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="2dp">
+
+            <CheckBox
+                android:id="@+id/checkBoxBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonCounter4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ответить"
+        app:backgroundTint="#423838" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="411dp"
+        android:layout_height="92dp"
+        android:text="Вопрос 2. Создайте класс Cat заключивший контракт с interface Animal"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/textViewColor1Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class cat extend Animal{}"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewColor1Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="2dp">
+
+            <CheckBox
+                android:id="@+id/checkBox1Color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/textViewBold1Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class cat implements Animal{}"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewBold1Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="2dp">
+
+            <CheckBox
+                android:id="@+id/checkBox1Bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1Counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ответить"
+        app:backgroundTint="#423838" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="5dp"
+        android:text="Следующая страница"
+        app:backgroundTint="#000000" />
+</LinearLayout>
